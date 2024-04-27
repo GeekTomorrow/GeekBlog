@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geekblog"
+version = "0.0.1"
+requires-python = ">=3.12"
+authors = [
+  {name = "YeyingXingchen", email = "yeyingxingchen@yeah.net"}
+]
+description = "极客们的博客系统。"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["blog", "web", "boke"]
+
+[project.urls]
+Homepage = "https://github.com/GeekTomorrow/GeekBlog"
+Documentation = "https://github.com/GeekTomorrow/GeekBlog/"
+Repository = "https://github.com/GeekTomorrow/GeekBlog.git"
+"Bug Tracker" = "https://github.com/GeekTomorrow/GeekBlog/issues"
+
+[project.scripts]
+geekblog = "geekblog:start"
